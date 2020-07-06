@@ -260,16 +260,16 @@ if(kidnap.x>1160){
  // bgsound1.loop();
   //bgsound1.play();
 }
-if(mousePressedOver(upArrow)){
+if(pressed(upArrow)){
   child.y = child.y-3;
 }
-if(mousePressedOver(downArrow)){
+if(pressed(downArrow)){
   child.y =child.y+3;
 }
-if(mousePressedOver(leftArrow)){
+if(pressed(leftArrow)){
   child.x = child.x -3;
 }
-if(mousePressedOver(rightArrow)){
+if(pressed(rightArrow)){
   child.x =child.x +3;
 }
 // edges = createEdgeSprites();
